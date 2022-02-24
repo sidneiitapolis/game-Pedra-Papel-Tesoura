@@ -95,7 +95,7 @@ opacity:1;
 
     .principal{
         
-        margin: 1rem auto;
+        margin: 0.5rem auto;
        
     }
 
@@ -106,7 +106,7 @@ opacity:1;
 
 .principal h1{
     text-align: center;
-   font-size: 1.2rem;
+   font-size: 1rem;
 }   
 .header-placar{
     font-size: 1rem;
@@ -118,7 +118,7 @@ opacity:1;
 
     #msg{
         
-        padding: .7rem;
+        padding: 0.5rem;
         
     }   
 
