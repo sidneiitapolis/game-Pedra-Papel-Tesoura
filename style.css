@@ -95,13 +95,14 @@ opacity:1;
 
     .principal{
         
-        margin: 0.5rem auto;
+        margin-top: 0;
        
     }
 
 .placar{
     flex-direction: column;
     height: 60vh;
+    margin-top:2% ;
 }
 
 .principal h1{
