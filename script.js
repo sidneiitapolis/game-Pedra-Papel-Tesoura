@@ -26,10 +26,9 @@ document.querySelector('#msg').innerHTML=(`Bem  vindo ao jogo ${jogadorNome}`)
 function jogar(escolha){
     jogadorEscolha=escolha
     selecionar('jogador',jogadorEscolha)
-    setTimeout(()=>{tirasel('jogador',jogadorEscolha)
-    document.querySelector('#msg').innerHTML="Jogue novamente"
-
-},3000)
+    setTimeout(()=>{
+        document.querySelector('#msg').innerHTML="Jogue novamente"
+        tirasel('jogador',jogadorEscolha)},3000)
     
     //Sortear a jogada do computador
    var computadorEscolha = Math.floor(Math.random() * (3 - 1 + 1)) + 1 //retorna um numero entre 1 e 3
