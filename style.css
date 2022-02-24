@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Averia Gruesa Libre', sans-serif,Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    width: 95%;
+    margin: 5rem auto;
+   
+}
+
+.principal h1{
+    text-align: center;
+   background-color: rgb(159, 200, 219);
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+}   
+
+.header-placar{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+        
+}    
+
+.header-placar span:nth-child(2){
+    font-size: 2rem;
+    
+
+}
+
+.jogador, .computador{
+    box-shadow: 0.1rem 0.1rem 0.9rem rgb(159, 200, 219);n;
+}
+
+    
+
+
+
+
+
+.placar{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #FFFAFA;
+    box-shadow: 0.2rem 0.2rem 0.8rem rgb(159, 200, 219);
+    width: 100%;
+    height: 40vh;
+}
+
+
+.placar img{
+    width: 70px;
+    padding: 0.1rem;
+    padding-top: 1rem;
+    
+}
+
+#jogador-escolha a, #computador-escolha a{
+    opacity: 0.5;
+}
+
+#jogador-escolha a:hover, #jogador-escolha a.selecionado, #computador-escolha a.selecionado{
+opacity:1;
+
+}
+
+
+
+
+#versus{
+    border-radius: 80%;
+    width: 60px;
+}
+
+#msg{
+    text-align: center;
+    padding: 1.5rem;
+    color: rgb(104, 166, 195);
+}
+    
