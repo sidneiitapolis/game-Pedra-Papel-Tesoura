@@ -93,6 +93,12 @@ opacity:1;
 
 @media (max-width: 800px){
 
+    .principal{
+        
+        margin: 1rem auto;
+       
+    }
+
 .placar{
     flex-direction: column;
     height: 60vh;
@@ -100,7 +106,7 @@ opacity:1;
 
 .principal h1{
     text-align: center;
-   font-size: 1.5rem;
+   font-size: 1.2rem;
 }   
 .header-placar{
     font-size: 1rem;
@@ -112,7 +118,7 @@ opacity:1;
 
     #msg{
         
-        padding: 1rem;
+        padding: .7rem;
         
     }   
 
