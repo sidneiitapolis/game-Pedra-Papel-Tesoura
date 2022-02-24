@@ -61,7 +61,7 @@
 
 
 .placar img{
-    width: 70px;
+    width: 50px;
     padding: 0.1rem;
     padding-top: 1rem;
     
@@ -90,3 +90,12 @@ opacity:1;
     color: rgb(104, 166, 195);
 }
     
+
+@media (max-width: 400px){
+
+.placar{
+    flex-direction: column;
+    height: 60vh;
+}
+
+}
