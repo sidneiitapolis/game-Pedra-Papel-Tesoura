@@ -22,13 +22,13 @@ document.querySelector('#msg').innerHTML=(`Bem  vindo ao jogo ${jogadorNome}`)
 //Tesoura Jogada 3
 
 //Funçao que recebe a jogada
-
+function aumenta(){
+    console.log('chamou')
+}
 function jogar(escolha){
     jogadorEscolha=escolha
     selecionar('jogador',jogadorEscolha)
-    setTimeout(()=>{
-        document.querySelector('#msg').innerHTML="Jogue novamente"
-        tirasel('jogador',jogadorEscolha)},3000)
+    
     
     //Sortear a jogada do computador
    var computadorEscolha = Math.floor(Math.random() * (3 - 1 + 1)) + 1 //retorna um numero entre 1 e 3
@@ -134,8 +134,12 @@ function mostraVencedor(){
                     document.querySelector('#msg').innerHTML=(`Computador Venceu `)
                 }
 
-                        
-            
+                setTimeout(()=>{ 
+                    document.querySelector('#msg').innerHTML="Jogue novamente"
+                    
+                    },3000)              
+                    for(i=1;i<=3;i++){
+                        document.getElementById('jogador-escolha-'+i).classList.remove('selecionado')}
                   
 }            
 
